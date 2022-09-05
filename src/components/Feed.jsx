@@ -20,8 +20,7 @@ const Feed = () => {
           px: { sx: 0, md: 2 },
         }}
       >
-        <Sidebar />
-        {/* <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} /> */}
+        <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
 
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff" }}>
           Copyright © 2022 allexib
